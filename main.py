@@ -20,7 +20,7 @@ import pyrebase
 import client
 import socket
 
-firebaseConfig = {"apiKey": "AIzaSyB6RtVkvyJ8QB8oWCsQh5Xc39ad3z6hhto",
+firebaseConfig = {"apiKey": "APIKEYCODE",
                   "authDomain": "chat-ffedf.firebaseapp.com",
                   "databaseURL": "https://chat-ffedf-default-rtdb.firebaseio.com",
                   "projectId": "chat-ffedf",
@@ -95,7 +95,7 @@ class SignUpScreen(BoxLayout):
                 self.ids.info_signup.text = '[color=#0000FF]Account created[/color]'
 
             except:
-                self.ids.info_signup.text = '[color=#FF0000]Invalid email address or Already exist[/color]'
+                self.ids.info_signup.text = '[color=#FF0000]Invalid email address or Already existed[/color]'
 
 
 class MainScreen(MDScreen):
